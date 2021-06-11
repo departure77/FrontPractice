@@ -46,40 +46,27 @@ header {
     
 }
 
-.header__menu:hover ul,
-ul:hover {
-    display: block
-}
-
-.header__menu ul {
-    display: none;
-    list-style: none;
-    padding: 0px;
-    position: absolute;
-    width: 100px;
-    text-align: right;
-    margin: 0px 0px 0px -50px;
-    font-family: 'Sarpanch', sans-serif;
-}
-
-.header__menu--profile img {
-    width: 30px;
-    margin: 5px 3px;
+.login__box img {
+    display: flex;
+    width: 70px;
+    margin: 150px 50px  ;
     padding: 5px;
     background-color: rgb(84, 218, 177);
-    border-radius: 5px;
+    border-radius: 40px;
 
     
 }
 
-.header__menu--profile p {
+.login__box--items p {
     margin: 0px;
     padding: 10px;
     color: white;
 
 }
-.header__menu--profile {
+.login__box--items {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .linea{
